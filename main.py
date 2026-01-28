@@ -3,9 +3,7 @@ from sklearn.metrics import accuracy_score
 import Pipe.kagglehub_pipeline as kh_pp
 import polars as pl 
 import classifier as cl
-import random as r 
 import Token.tokenization as tok
-import numpy as np
 
 data_pipeline: kh_pp.KaggleHubDataPipeline = kh_pp.KaggleHubDataPipeline(
         kh_pp.KaggleHubDataFetch,
